@@ -1,0 +1,52 @@
+body {
+  background-color: mistyrose;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(128, 128, 128, 0.9);
+  text-align: right;
+  font-size: 200%;
+  color: #fff;
+}
+
+.buttons {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(5, 18%);
+}
+
+.buttons > button {
+  font-size: 2rem;
+  border: 2px solid rgba(205, 204, 204, 0.7);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.buttons > button:hover {
+  filter: invert(100%);
+}
+
+.rowspan {
+  grid-column: 1/3;
+}
+
+.operations {
+  background-color: rgb(247, 143, 8);
+  border-top: gray;
+}
+
+.calculator {
+  width: 50%;
+
+  /* border: 0.5rem solid black; */
+  height: 90vh;
+}
