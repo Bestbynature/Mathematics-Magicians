@@ -17,21 +17,21 @@ body {
   color: #fff;
 }
 
-.buttons {
+.buttons-cont {
   display: grid;
   height: 100%;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(5, 18%);
 }
 
-.buttons > button {
+.buttons-cont > button {
   font-size: 2rem;
   border: 2px solid rgba(205, 204, 204, 0.7);
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
-.buttons > button:hover {
+.buttons-cont > button:hover {
   filter: invert(100%);
 }
 
