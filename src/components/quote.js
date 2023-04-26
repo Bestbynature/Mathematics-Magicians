@@ -26,7 +26,12 @@ function Quotes() {
     fetcher();
   }, [setQuotes, setLoading]);
 
-  if (loading) return <div className="loading">Your quote is loading ...</div>;
+  if (loading) {
+    document.title = 'Loading Quote...';
+    return <div className="loading">Your quote is loading ...</div>;
+  }
+  document.title = 'Mathematics Magicians';
+
   if (hasError) return <div className="error">There is an error! try again.</div>;
   return (
     <div className="quotes"><h3>{quotes}</h3></div>
