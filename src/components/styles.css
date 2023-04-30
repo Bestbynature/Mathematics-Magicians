@@ -2,10 +2,48 @@ body {
   background-color: mistyrose;
 }
 
-.app {
+header {
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+
+header h1 {
+  flex: 1;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  transition: all 0.5s ease-in-out;
+  padding: 3px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.active-link {
+  background-color: #fff;
+  border: 2px solid chocolate;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+nav ul li:hover {
+  filter: invert(100%);
+  background-color: cadetblue;
+  border-radius: 1rem;
+}
+
+nav ul span {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  color: chocolate;
 }
 
 .display {
@@ -44,9 +82,16 @@ body {
   border-top: gray;
 }
 
+.calc-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .calculator {
-  width: 50%;
-  height: 90vh;
+  width: 40%;
+  height: 80vh;
+  margin-top: 1.7rem;
 }
 
 .error {
@@ -72,4 +117,21 @@ body {
   font-family: monospace;
   color: darkmagenta;
   font-size: 1.5rem;
+}
+
+.home p {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 500px) {
+  .calc-wrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .calculator {
+    width: 80%;
+  }
 }
