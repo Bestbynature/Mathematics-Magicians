@@ -1,6 +1,6 @@
 const NotFound = () => (
   <div className="not-found">
-    <h1>OOOOPS! Seems you entered a wrong URL!</h1>
+    <h1 data-testid="error-div">OOOOPS! Seems you entered a wrong URL!</h1>
   </div>
 );
 

@@ -2,7 +2,7 @@
   "name": "mathematics-magicians",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bestbynature.github.io/Mathematics-Magicians",
+  "homepage": "https://bestbynature.github.io/Mathematics-Magicians/",
   "dependencies": {
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -53,6 +53,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^5.0.0",
+    "react-test-renderer": "^18.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",

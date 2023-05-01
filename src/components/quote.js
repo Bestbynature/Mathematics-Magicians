@@ -34,7 +34,7 @@ function Quotes() {
 
   if (hasError) return <div className="error">There is an error! try again.</div>;
   return (
-    <div className="quotes"><h3>{quotes}</h3></div>
+    <div className="quotes"><h3 data-testid="quotes-div">{quotes}</h3></div>
   );
 }
 

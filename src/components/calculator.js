@@ -15,9 +15,9 @@ function Calculator() {
   return (
     <>
       <div className="calc-wrapper">
-        <h2>{heading}</h2>
+        <h2 data-testid="calc-heading">{heading}</h2>
         <div className="calculator">
-          <div className="display">
+          <div data-testid="click" className="display">
             { ' ' }
             {total}
             {operation}
