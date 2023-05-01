@@ -5,7 +5,7 @@ describe('operate', () => {
     expect(operate(1, 2, '+')).toBe('3');
   });
 
-  test('should return the difference of two numbers', () => {
+  test('should return the difference of two numbers when the sign is negative', () => {
     expect(operate(1, 2, '-')).toBe('-1');
   });
 
