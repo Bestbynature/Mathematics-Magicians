@@ -2,6 +2,8 @@
 
 # dependencies
 node_modules/
+*.txt.txt
+*.json.json
 /.pnp
 .pnp.js
 .vscode
