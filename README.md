@@ -31,10 +31,10 @@
 
 # 📖 [Mathematics Magician] <a name="about-project"></a>
 
-**[Mathematics Magician](https://bestbynature.github.io/Mathematics-Magicians/)** is a website for all fans of mathematics. It is a Single Page App (SPA) built with react and that allows users to:
+**[Mathematics Magician](https://first-render-app-deploy.onrender.com/)** is a website for all fans of mathematics. It is a Single Page App (SPA) built with react and that allows users to:
 
--[] Make simple calculations.
--[] Read a random math-related quote.
+- [x] Make simple calculations.
+- [x] Read a random math-related quote.
 
 The app is built by first building the core functionality, which is a calculator that is able to perform all mathematics operations. After this step is concluded, it is used as a part of a full website that includes 3 sub-pages. Enjoy!
 
@@ -66,7 +66,7 @@ The app is built by first building the core functionality, which is a calculator
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### **[Mathematics Magician](https://bestbynature.github.io/Mathematics-Magicians/)**
+### **[Mathematics Magician](https://first-render-app-deploy.onrender.com/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
