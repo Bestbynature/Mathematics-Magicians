@@ -4,17 +4,25 @@ function Quotes() {
   const [quotes, setQuotes] = useState([]);
   const [loading, setLoading] = useState(false);
   const [hasError, setHasError] = useState(null);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    if (!mounted) {
+      setMounted(true);
+      return;
+    }
+
     const options = {
       method: 'GET',
       headers: { 'X-Api-Key': '7wgutqejltLcyirbYETXwg==SuLvCcQgbH432WT2' },
       contentType: 'application/json',
     };
+
     const fetcher = async () => {
       setLoading(true);
       try {
-        const response = await fetch('https://api.api-ninjas.com/v1/quotes', options);
+        const url = 'https://api.api-ninjas.com/v1/quotes';
+        const response = await fetch(url, options);
         const data = await response.json();
         const message = data[0].quote;
         setQuotes(message);
@@ -24,7 +32,7 @@ function Quotes() {
       setLoading(false);
     };
     fetcher();
-  }, [setQuotes, setLoading]);
+  }, [setQuotes, setLoading, mounted]);
 
   if (loading) {
     document.title = 'Loading Quote...';
