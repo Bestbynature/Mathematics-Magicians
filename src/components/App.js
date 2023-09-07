@@ -27,11 +27,11 @@ const App = () => {
             </li>
             <span>|</span>
             <li>
-              <Link to="/Mathematics-Magicians/calculator" className={active === 2 ? 'active-link' : ''} onClick={() => { linkclicked(2); }}>Calculator</Link>
+              <Link to="/calculator" className={active === 2 ? 'active-link' : ''} onClick={() => { linkclicked(2); }}>Calculator</Link>
             </li>
             <span>|</span>
             <li>
-              <Link to="/Mathematics-Magicians/quote" className={active === 3 ? 'active-link' : ''} onClick={() => { linkclicked(3); }}>Quote</Link>
+              <Link to="/quote" className={active === 3 ? 'active-link' : ''} onClick={() => { linkclicked(3); }}>Quote</Link>
             </li>
           </ul>
         </nav>
@@ -39,8 +39,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route index element={<Home />} />
-        <Route path="/Mathematics-Magicians/calculator" element={<Calculator />} />
-        <Route path="/Mathematics-Magicians/quote" element={<Quotes />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quote" element={<Quotes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
