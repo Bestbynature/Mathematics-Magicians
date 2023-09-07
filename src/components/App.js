@@ -23,15 +23,15 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/" className={active === 1 ? 'active-link' : ''} onClick={() => { linkclicked(1); }}>Home</Link>
+              <Link to="/Mathematics-Magicians/" className={active === 1 ? 'active-link' : ''} onClick={() => { linkclicked(1); }}>Home</Link>
             </li>
             <span>|</span>
             <li>
-              <Link to="calculator" className={active === 2 ? 'active-link' : ''} onClick={() => { linkclicked(2); }}>Calculator</Link>
+              <Link to="/Mathematics-Magicians/calculator" className={active === 2 ? 'active-link' : ''} onClick={() => { linkclicked(2); }}>Calculator</Link>
             </li>
             <span>|</span>
             <li>
-              <Link to="quote" className={active === 3 ? 'active-link' : ''} onClick={() => { linkclicked(3); }}>Quote</Link>
+              <Link to="/Mathematics-Magicians/quote" className={active === 3 ? 'active-link' : ''} onClick={() => { linkclicked(3); }}>Quote</Link>
             </li>
           </ul>
         </nav>
