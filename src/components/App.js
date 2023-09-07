@@ -37,10 +37,10 @@ const App = () => {
         </nav>
       </header>
       <Routes>
-        <Route path="/" element={<Layout />} />
+        <Route path="/Mathematics-Magicians/" element={<Layout />} />
         <Route index element={<Home />} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/quote" element={<Quotes />} />
+        <Route path="/Mathematics-Magicians/calculator" element={<Calculator />} />
+        <Route path="/Mathematics-Magicians/quote" element={<Quotes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
