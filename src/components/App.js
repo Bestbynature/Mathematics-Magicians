@@ -23,7 +23,7 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/Mathematics-Magicians/" className={active === 1 ? 'active-link' : ''} onClick={() => { linkclicked(1); }}>Home</Link>
+              <Link to="/" className={active === 1 ? 'active-link' : ''} onClick={() => { linkclicked(1); }}>Home</Link>
             </li>
             <span>|</span>
             <li>
@@ -37,7 +37,7 @@ const App = () => {
         </nav>
       </header>
       <Routes>
-        <Route path="/Mathematics-Magicians/" element={<Layout />} />
+        <Route path="/" element={<Layout />} />
         <Route index element={<Home />} />
         <Route path="/Mathematics-Magicians/calculator" element={<Calculator />} />
         <Route path="/Mathematics-Magicians/quote" element={<Quotes />} />
