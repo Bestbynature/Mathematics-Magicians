@@ -31,7 +31,7 @@
 
 # 📖 [Mathematics Magician] <a name="about-project"></a>
 
-**[Mathematics Magician](https://first-render-app-deploy.onrender.com/)** is a website for all fans of mathematics. It is a Single Page App (SPA) built with react and that allows users to:
+**[Mathematics Magician](https://mathematics-magicians-a4jdysurn-bestbynature.vercel.app/)** is a website for all fans of mathematics. It is a Single Page App (SPA) built with react and that allows users to:
 
 - [x] Make simple calculations.
 - [x] Read a random math-related quote.
@@ -66,7 +66,7 @@ The app is built by first building the core functionality, which is a calculator
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### **[Mathematics Magician](https://first-render-app-deploy.onrender.com/)**
+### **[Mathematics Magician](https://mathematics-magicians-a4jdysurn-bestbynature.vercel.app/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
