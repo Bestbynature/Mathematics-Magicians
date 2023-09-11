@@ -1,7 +1,6 @@
 {
   "name": "mathematics-magicians",
   "version": "0.1.0",
-  "homepage": "http://Bestbynature.github.io/Mathematics-Magicians",
   "private": true,
   "dependencies": {
     "@testing-library/react": "^13.4.0",
